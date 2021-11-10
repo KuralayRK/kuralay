@@ -1,0 +1,117 @@
+@import "_mixins"
+$white: #fff
+$black: #000000
+$background-cont-two: #E5E5E5
+
+body
+   margin: 0px
+header
+   @include size(100% , 81px , 81px )
+   @include flex(80% ,auto , auto )
+   background-color: $black
+   justify-content: space-around
+   font-family: "SFUIDisplay-Thin"
+   font-size: 20px
+   line-height: 24px
+   color: $white
+   
+li
+   @include block(80% , auto , auto)
+   margin-right: 73px 
+   margin-bottom: 28px
+
+.content-one
+   background: url(/images/backp1.png) no-repeat
+
+.head-cont-one
+   @include flex(100% ,auto , auto)
+   justify-content: space-around
+   background-size: 100%
+
+.cent-img
+   @include flex-center(100% ,auto , auto)
+   display: flex
+   position: center
+
+.teg
+   @include display(flex, column )
+   align-items: center
+   justify-content: center
+
+.cont-two-col
+   display: grid
+   grid-template-columns: 400px 400px 400px
+   align-items: center
+   justify-content: center
+
+.text-two
+   font-family: "SFUIDisplay-Thin"
+   font-size: 25px
+   line-height: 43px
+   color: $black
+   padding-left: 220px 
+   padding-top: 15px
+   padding-bottom: 10px
+
+@font-face
+   font-family: "SFUIDisplay-Thin"
+   src: url("../font/SFUIDisplay-Thin.eot")
+   src: url("../font/SFUIDisplay-Thin.woff") format('wof')
+   src: url("../font/SFUIDisplay-Thin.woff2") format('woff2')
+
+.content-two  
+   background-color: $background-cont-two
+   
+.heart
+   width: 50px
+   height: 50px
+   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
+   border-radius: 8px
+   
+.download
+   width: 206px
+   height: 50px   
+   background: #219653
+   border: 1px solid #219653
+   box-sizing: border-box
+   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
+   border-radius: 8px
+   font-family: "SFUIDisplay-Thin"
+   font-size: 20px
+   line-height: 24px
+   color: #F2F2F2
+
+.tegs
+   width: 125px
+   height: 30px
+   background: #FFFFFF
+   border-radius: 8px
+   font-family: "SFUIDisplay-Thin"
+   font-size: 18px
+   line-height: 21px
+   color: #828282  
+
+.btn-one 
+   padding-bottom: 50px
+
+.head-cont-one
+   padding-top: 30px
+   justify-content: space-between
+   padding-left: 200px
+   padding-right: 200px
+
+.link
+   color: $white
+   text-decoration: none  
+   font-family: "SFUIDisplay-Thin"
+
+.link-a
+   text-decoration: none
+   font-family: "SFUIDisplay-Thin"
+   font-size: 25px
+   line-height: 40px
+   color: #FFFFFF
+   font-weight: bold
+
+.nav-menu
+   padding-left: 250px
