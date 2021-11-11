@@ -22,3 +22,10 @@
   margin-right: $margin-right
   margin-top: $margin-top
   margin-bottom: $margin-bottom
+
+@mixin flex-colu($display-f: inline-flex, $flex-dir: column, $wrap: wrap, $just: flex-star, $item: center)  
+  display: $display-f
+  flex-direction: $flex-dir
+  flex-wrap: $wrap
+  justify-content: $just
+  align-items: $item

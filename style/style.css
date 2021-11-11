@@ -134,4 +134,21 @@ li {
   padding-left: 250px;
 }
 
+.fav {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 100px;
+}
+
+h3 {
+  font-family: "SFUIDisplay-Thin";
+  font-size: 72px;
+  line-height: 86px;
+  color: #000000;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
