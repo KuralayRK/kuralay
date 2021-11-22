@@ -14,14 +14,54 @@ header
    font-size: 20px
    line-height: 24px
    color: $white
-   
+
+.var
+   width: 100%
+   background-color: $black
+
+input
+   font-family: "SFUIDisplay-Thin"
+   font-size: 72px
+   line-height: 86px
+   color: $white  
+   background-color: $black
+   outline: none
+   border: none
+   border: solid 1px #0000
+   padding-left: 700px
+   display: flex
+
+.list
+   color: $white
+   font-family: "SFUIDisplay-Thin"
+   font-size: 14px
+   line-height: 21px
+   text-align: center
+   margin-top: 20px
+   padding-bottom: 50px
+   border-top: 1px solid $white
+   padding-top: 30px
+
+.fa
+   width: 20px
+   height: 20px
+   margin-right: 3px
 li
    @include block(80% , auto , auto)
    margin-right: 73px 
    margin-bottom: 28px
 
+.butt img
+   padding-top: 80px
+   padding-bottom: 80px
+   padding-left: 750px  
+
 .content-one
    background: url(/images/backp1.png) no-repeat
+
+.text-one h1
+   color: $white
+   font-family: "SFUIDisplay-Thin"
 
 .head-cont-one
    @include flex(100% ,auto , auto)
@@ -37,12 +77,15 @@ li
    @include display(flex, column )
    align-items: center
    justify-content: center
+   font-family: "SFUIDisplay-Thin"
+   padding-bottom: 30px
 
-.cont-two-col
-   display: grid
-   grid-template-columns: 400px 400px 400px
-   align-items: center
-   justify-content: center
+.cont-two-col  
+   display: flex
+   padding-left: 200px
+
+.imagees
+    @include flex-colu($display-f: inline-flex, $flex-dir: column, $wrap: wrap, $just: flex-start, $item: center)
 
 .text-two
    font-family: "SFUIDisplay-Thin"
@@ -116,14 +159,28 @@ li
 .nav-menu
    padding-left: 250px
 
+.fav-cont-two-col
+   display: flex
+   padding-left: 200px
+
 .fav
    @include flex-colu($display-f: inline-flex, $flex-dir: column, $wrap: wrap, $just: flex-start, $item: center)
-   padding-left: 100px
+
 h3
    font-family: "SFUIDisplay-Thin"
    font-size: 72px
    line-height: 86px
    color: #000000
    text-align: center
+
+.search
+   @include flex-colu($display-f: inline-flex, $flex-dir: column, $wrap: wrap, $just: flex-start, $item: center)
+   
+.search-images
+   display: flex
+   align-items: center
+   padding-left: 200px
+      
+      
  
    

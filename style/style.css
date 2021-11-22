@@ -15,14 +15,61 @@ header {
   color: #fff;
 }
 
+.var {
+  width: 100%;
+  background-color: #000000;
+}
+
+input {
+  font-family: "SFUIDisplay-Thin";
+  font-size: 72px;
+  line-height: 86px;
+  color: #fff;
+  background-color: #000000;
+  outline: none;
+  border: none;
+  border: solid 1px #0000;
+  padding-left: 700px;
+  display: flex;
+}
+
+.list {
+  color: #fff;
+  font-family: "SFUIDisplay-Thin";
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  border-top: 1px solid #fff;
+  padding-top: 30px;
+}
+
+.fa {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
 li {
   display: inline-block;
   margin-right: 73px;
   margin-bottom: 28px;
 }
 
+.butt img {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 750px;
+}
+
 .content-one {
   background: url(/images/backp1.png) no-repeat;
+}
+
+.text-one h1 {
+  color: #fff;
+  font-family: "SFUIDisplay-Thin";
 }
 
 .head-cont-one {
@@ -43,13 +90,21 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "SFUIDisplay-Thin";
+  padding-bottom: 30px;
 }
 
 .cont-two-col {
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
+  display: flex;
+  padding-left: 200px;
+}
+
+.imagees {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
 }
 
 .text-two {
@@ -134,13 +189,17 @@ li {
   padding-left: 250px;
 }
 
+.fav-cont-two-col {
+  display: flex;
+  padding-left: 200px;
+}
+
 .fav {
   display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 100px;
 }
 
 h3 {
@@ -149,6 +208,20 @@ h3 {
   line-height: 86px;
   color: #000000;
   text-align: center;
+}
+
+.search {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-images {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
